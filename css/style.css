@@ -19,10 +19,10 @@ strong{
     width: 100%;
     height: 600px;
     background-color: #34373e;
-    -ms-transform: skewY(-12deg); /* IE 9 */
+/*     -ms-transform: skewY(-12deg); /* IE 9 */
   -webkit-transform: skewY(-12deg); /* Safari prior 9.0 */
-  transform: skewY(-12deg);
-    /* background-image: url(../image/topbg.svg) */
+  transform: skewY(-12deg); */
+    background-image: url(../image/topbg.svg)
 }
 .navbar{
     padding: 40px 100px;
