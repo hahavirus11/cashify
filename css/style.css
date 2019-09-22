@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    box-sizing: border-box
+}
+body,p,h1,h2,div,img{
+    padding: 0;
+    margin: 0%
+} 
+strong{
+    font-size: 40px;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.header{
+    width: 100%;
+    height: 600px;
+    background-color: #34373e;
+    -ms-transform: skewY(-12deg); /* IE 9 */
+  -webkit-transform: skewY(-12deg); /* Safari prior 9.0 */
+  transform: skewY(-12deg);
+    /* background-image: url(../image/topbg.svg) */
+}
+.navbar{
+    padding: 40px 100px;
+}
+.logo{
+    float: left;
+    width: 96px;
+    height: 31px;
+    font-family: Asap;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1.15;
+    letter-spacing: 2.16px;
+    color: #ffffff;
+}
+.menu{
+    float: right;
+    width: auto;
+    margin-right: 8px;
+    padding: 0 12px;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+.hero{
+    padding: 40px 100px;
+    margin-top: 60px
+}
+.heroh1 {
+    font-family: Lato;
+    font-size: 50px;
+    line-height: 1.14;
+    color: #ffffff;
+    margin-bottom: 20px 
+}
+.herod1{
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #ffffff;
+    margin-bottom: 20px
+}
+.heroimg{
+    /* background-image: url(../image/Phone\ mockup.png);
+    width: 750px;
+    height: 420px; */
+    float: right;
+    width: 700px    
+}
+button{
+    border: 0;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: white;
+    border-radius: 8em
+}
+button:hover{
+    background-image: linear-gradient(15deg,#8d55c0,#513fb4)
+}
+.button1 {
+    float: left;
+    width: 160px;
+    height: 55px;
+    background-color: #d84b4b;
+    font-size: 18px;
+    margin-right: 20px
+}
+.button2 {
+    float: left;
+    width: 160px;
+    height: 55px;
+    background-color: #6a8bd6;
+    font-size: 18px;
+}
+.features{
+    width: 1060px;
+    height: 305px;
+    margin: auto;
+    background-color:#ffffff;
+}
+h1{
+    padding-top: 32px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #34373e  
+}
+.featurelist{
+    align-items: center;
+    width: 180px;
+    float: left;
+    font-size: 16px;
+    color: #6c7280;
+    text-align: center;
+    line-height: 1.44;
+    margin-top: 50px
+}
+.featurelist img{
+    width: 40px;
+    height: 40px;
+}
+
+.pricing{
+    margin: 120px auto 0px auto;
+    width: 1100px;
+    height: 512px;
+    /* background-color:tomato; */
+}
+.pwrap{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    gap: 60px;
+    margin-top: 60px
+}
+.pbox{
+    /* background-color: lightgreen; */
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24);
+}
+.pbox:hover{
+    box-shadow: 0 9px 33px 0 rgba(0, 0, 223, 0.4);
+}
+.btitle{
+    width: 230px;
+    height: 44px;
+    padding-top: 24px;
+    background-image: linear-gradient(2deg, #ececec, #dbdbdb);
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #34373e;
+}
+.bcontent{
+    padding-top: 10px;
+    width: 230px;
+    height: 270px;
+    border-radius: 2px;    
+    font-family: 'Lato';
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+    color: #34373e;
+}
+.button3{
+    /* margin-top: 18px; */
+    width: 118px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: #d84b4b;  
+}
+.contact{
+    width: 940px;
+    height: 500px;
+    /* background-color: tomato; */
+    margin: 25px auto 20px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 140px;
+}
+.contact_text{
+    padding-top: 112px;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 1.73;
+    text-align: left;
+    color: #6c7280;
+}
+.contact_form{
+    height: 450px;
+    border-radius: 2px;
+    border: solid 1px #dddddd;
+    background-color: #fafafa;
+}
+input{
+    margin: 40px 40px 0px;
+    padding: 0px 10px;
+    width: 310px;
+    height: 60px;
+    font-size: 16px;
+    font-family: 'lato';
+    border-radius: 2px;
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+}
+.footer{
+    width: 1366px;
+    height: 50px;
+    background-color: #d84b4b;
+    padding: 20px
+}
+.footmenu{
+    width: 1200px;
+    height: 26px;
+    margin: auto;
+}
+  
+@media (max-width:768px){
+
+
+}
